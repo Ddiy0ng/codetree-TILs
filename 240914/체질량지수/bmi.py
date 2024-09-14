@@ -1,5 +1,6 @@
-h, w = map(int, input().split()) #키, 몸무게
-b = (10000*w)/(h**2)
+h, w = map(float, input().split())
+b = (10000*w)/(h*h)
 
-if(b >= 25):
-    print(f"{int(b)}\nObesity")
+print(f"{int(b)}")
+if b >= 25:
+    print("Obesity")
