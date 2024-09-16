@@ -1,13 +1,13 @@
 s = input()
-if s == S:
+if s == 'S':
     print("Superior")
-elif s == A:
+elif s == 'A':
     print("Excellent")
-elif s == B:
+elif s == 'B':
     print("Good")
-elif s == C:
+elif s == 'C':
     print("Usually")
-elif s == D:
+elif s == 'D':
     print("Effort")
 else:
     print("Failure")
