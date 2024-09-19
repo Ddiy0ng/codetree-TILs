@@ -1,5 +1,12 @@
 a = int(input())
-b, c, d = map(int, input().split())
+n = input()
+arr = n.split()
+b = int(arr[0])
+c = int(arr[1])
+d = int(arr[2])
+e = int(arr[3])
+
+
 if a > b:
     print(1)
 else:
