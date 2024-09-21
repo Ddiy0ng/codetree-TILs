@@ -1,7 +1,7 @@
 mA, eA = map(int, input().split())
 mB, eB = map(int, input().split())
 if mA > mB:
-    print(A)
+    print('A')
 elif mA == mB:
     if eA > eB:
         print('A')
